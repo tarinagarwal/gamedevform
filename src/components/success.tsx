@@ -1,7 +1,6 @@
-import React from "react";
+
 import { motion } from "framer-motion";
-import { CheckCircle, ArrowLeft } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { CheckCircle } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function ThankYouPage() {

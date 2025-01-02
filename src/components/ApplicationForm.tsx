@@ -1,4 +1,3 @@
-import React from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
@@ -28,7 +27,6 @@ import {
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
 import { supabase } from "@/lib/supabase";
-import { ThemeToggle } from "@/components/ThemeToggle";
 import ThankYouPage from "./success";
 
 const skillOptions = [
